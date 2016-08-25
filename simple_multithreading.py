@@ -11,7 +11,7 @@ class Producer:
             if (self.nextTime < time.clock()):
                 f = self.food[random.randrange(len(self.food))]
                 q.put(f)
-                print("Adding" + " " + f)
+                print("Adding" + " {}".format(f))
                 self.nextTime += random.random()
 
 class Consumer:
@@ -22,7 +22,7 @@ class Consumer:
         while (time.clock() < 10):
             if (self.nextTime < time.clock() and not q.empty()):
                 f = q.get()
-                print("Removing" + " " + f)
+                print("Removing" + " {}".format(f))
                 self.nextTime += random.random()*2
 
 if __name__ == '__main__':
