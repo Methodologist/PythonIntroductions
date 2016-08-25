@@ -1,3 +1,3 @@
 # PythonIntroductions
 
-![My image](username.github.com/repository/img/padawan-programmer.jpg)
+![My image](Methodologist.github.com/repository/img/padawan-programmer.jpg)
