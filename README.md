@@ -1,7 +1,5 @@
-<center>
+<div style="text-align:center">
 # PythonIntroductions
-</center>
 
-<center>
 ![padawan](padawan-programmer.jpg)
-</center>
+</div>
